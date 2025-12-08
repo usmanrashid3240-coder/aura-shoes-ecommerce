@@ -103,6 +103,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import SplashScreen from "./Components/SplashScreen";
+import ContactForm from "./Components/ContactForm";
 
 // Pages
 import Home from "./Pages/Home";
@@ -170,6 +171,7 @@ const App = () => {
               <Route path="/signup" element={<Signup />} />
 
               <Route path="/admin" element={<AdminDashboard />} />
+              <Route path="/contact" element={<ContactForm />} />
             </Routes>
           </main>
 

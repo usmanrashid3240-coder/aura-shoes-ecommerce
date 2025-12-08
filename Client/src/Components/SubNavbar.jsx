@@ -1,45 +1,69 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaMale, FaFemale, FaChild, FaSignInAlt, FaUserPlus } from "react-icons/fa";
+import { GiRunningShoe } from "react-icons/gi"; 
+import { MdContactMail } from "react-icons/md"; // ✅ Contact Icon Added
 
 const SubNavbar = () => {
   return (
-    <div className="bg-gradient-to-r from-gray-900 via-green-600 to-gray-900 text-white  shadow-md py-3 px-6 flex items-center justify-center space-x-10">
-      {/* 🟢 Men Dropdown */}
-      <div className="relative group">
-        <span className="text-gray-800 font-semibold cursor-pointer hover:inline-flex ">
-          Men
-        </span>
+    <div className="bg-gradient-to-r from-gray-900 via-green-600 to-gray-900 text-white shadow-md py-3 px-6 flex items-center justify-center space-x-6">
 
-        {/* Dropdown Menu */}
-        <div className="absolute hidden group-hover:block bg-white shadow-lg rounded-lg mt-1 pl-2 mr-18 min-w-[150px] z-50">
-          <Link
-            to="/"
-            className="block px-4 py-2 text-gray-700 hover:font-extrabold rounded-t-lg transition"
-          >
-            Joggers
-          </Link>
-          <Link
-            to="/sneakers"
-            className="block px-4 py-2 text-gray-700  hover:font-extrabold transition"
-          >
-            Sneakers
-          </Link>
-          <Link
-            to="/home"
-            className="block px-4 py-2 text-gray-700  hover:font-extrabold rounded-b-lg transition"
-          >
-            Running Shoes
-          </Link>
-        </div>
-      </div>
+      {/* 🟢 Men Button */}
+      <Link
+        to="/home"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <FaMale /> <span>Men</span>
+      </Link>
 
-      {/* Optional future links */}
-      <Link to="/women" className="text-gray-800 font-semibold ">
-        Women
+      {/* 🟢 Sneakers Button */}
+      <Link
+        to="/sneakers"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <GiRunningShoe /> <span>Sneakers</span>
       </Link>
-      <Link to="/Kidz" className="text-gray-800 font-semibold ">
-        Kidz
+
+      {/* 🟣 Women Button */}
+      <Link
+        to="/women"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <FaFemale /> <span>Women</span>
       </Link>
+
+      {/* 🟠 Kidz Button */}
+      <Link
+        to="/kidz"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <FaChild /> <span>Kidz</span>
+      </Link>
+
+      {/* 🟦 Contact Button (NEW) */}
+      <Link
+        to="/contact"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <MdContactMail /> <span>Contact</span>
+      </Link>
+
+      {/* 🔵 Login Button */}
+      <Link
+        to="/login"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <FaSignInAlt /> <span>Login</span>
+      </Link>
+
+      {/* 🔵 Signup Button */}
+      <Link
+        to="/signup"
+        className="flex items-center space-x-1 text-gray-800 font-semibold hover:text-white hover:underline transition"
+      >
+        <FaUserPlus /> <span>Signup</span>
+      </Link>
+
     </div>
   );
 };
