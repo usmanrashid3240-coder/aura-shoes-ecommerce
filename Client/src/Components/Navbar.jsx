@@ -12,7 +12,7 @@ function Navbar() {
           <span className="text-3xl font-bold text-gray-800 flex items-center">
             Aura Shoes
             <img
-              src="/MY-Project/green-shoes-logo.png"
+              src="/green-shoes-logo.png" 
               alt="Aura Shoes Logo"
               className="w-[80px] h-[80px] ml-2"
             />
