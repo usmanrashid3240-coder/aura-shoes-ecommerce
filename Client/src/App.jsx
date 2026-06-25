@@ -142,7 +142,7 @@ const App = () => {
   return (
     <CartProvider>
       {/* ✅ GitHub Pages compatible Router */}
-      <Router basename="/MY-Project">
+      <Router>
         <div className="flex flex-col min-h-screen">
           {/* Navbar */}
           <Navbar />
