@@ -7,18 +7,18 @@
 
 // // function Home() {
 // //   const images = [
-// //     "/MY-Project/shoes1.jpg",
-// //     "/MY-Project/shoes2.jpg",
-// //     "/MY-Project/shoes11.jpg",
-// //     "/MY-Project/shoes12.jpg",
-// //     "/MY-Project/shoes13.jpg",  
-// //     "/MY-Project/shoes14.jpg",
-// //     "/MY-Project/shoes15.jpg",
-// //     "/MY-Project/shoes16.jpg",
-// //     "/MY-Project/shoes17.jpg",
-// //     "/MY-Project/shoes18.jpg",
-// //      "/MY-Project/shoes19.jpg",
-// //       "/MY-Project/shoes20.jpg",
+// //     "/shoes1.jpg",
+// //     "/shoes2.jpg",
+// //     "/shoes11.jpg",
+// //     "/shoes12.jpg",
+// //     "/shoes13.jpg",  
+// //     "/shoes14.jpg",
+// //     "/shoes15.jpg",
+// //     "/shoes16.jpg",
+// //     "/shoes17.jpg",
+// //     "/shoes18.jpg",
+// //      "/shoes19.jpg",
+// //       "/shoes20.jpg",
       
 // //   ];
 
@@ -147,18 +147,18 @@
 
 // //   // Slider Images
 // //   const images = [
-// //     "/MY-Project/shoes1.jpg",
-// //     "/MY-Project/shoes2.jpg",
-// //     "/MY-Project/shoes11.jpg",
-// //     "/MY-Project/shoes12.jpg",
-// //     "/MY-Project/shoes13.jpg",
-// //     "/MY-Project/shoes14.jpg",
-// //     "/MY-Project/shoes15.jpg",
-// //     "/MY-Project/shoes16.jpg",
-// //     "/MY-Project/shoes17.jpg",
-// //     "/MY-Project/shoes18.jpg",
-// //     "/MY-Project/shoes19.jpg",
-// //     "/MY-Project/shoes20.jpg",
+// //     "/shoes1.jpg",
+// //     "/shoes2.jpg",
+// //     "/shoes11.jpg",
+// //     "/shoes12.jpg",
+// //     "/shoes13.jpg",
+// //     "/shoes14.jpg",
+// //     "/shoes15.jpg",
+// //     "/shoes16.jpg",
+// //     "/shoes17.jpg",
+// //     "/shoes18.jpg",
+// //     "/shoes19.jpg",
+// //     "/shoes20.jpg",
 // //   ];
 
 // //   const [currentIndex, setCurrentIndex] = useState(0);
@@ -272,18 +272,18 @@
 
 //   // Slider Images
 //   const images = [
-//     "/MY-Project/shoes1.jpg",
-//     "/MY-Project/shoes2.jpg",
-//     "/MY-Project/shoes11.jpg",
-//     "/MY-Project/shoes12.jpg",
-//     "/MY-Project/shoes13.jpg",
-//     "/MY-Project/shoes14.jpg",
-//     "/MY-Project/shoes15.jpg",
-//     "/MY-Project/shoes16.jpg",
-//     "/MY-Project/shoes17.jpg",
-//     "/MY-Project/shoes18.jpg",
-//     "/MY-Project/shoes19.jpg",
-//     "/MY-Project/shoes20.jpg",
+//     "/shoes1.jpg",
+//     "/shoes2.jpg",
+//     "/shoes11.jpg",
+//     "/shoes12.jpg",
+//     "/shoes13.jpg",
+//     "/shoes14.jpg",
+//     "/shoes15.jpg",
+//     "/shoes16.jpg",
+//     "/shoes17.jpg",
+//     "/shoes18.jpg",
+//     "/shoes19.jpg",
+//     "/shoes20.jpg",
 //   ];
 
 //   const [currentIndex, setCurrentIndex] = useState(0);
@@ -404,18 +404,18 @@ const Home = () => {
   const navigate = useNavigate();
 
   const images = [
-    "/MY-Project/shoes1.jpg",
-    "/MY-Project/shoes2.jpg",
-    "/MY-Project/shoes11.jpg",
-    "/MY-Project/shoes12.jpg",
-    "/MY-Project/shoes13.jpg",
-    "/MY-Project/shoes14.jpg",
-    "/MY-Project/shoes15.jpg",
-    "/MY-Project/shoes16.jpg",
-    "/MY-Project/shoes17.jpg", 
-    "/MY-Project/shoes18.jpg",
-    "/MY-Project/shoes19.jpg",
-    "/MY-Project/shoes20.jpg",
+    "/shoes1.jpg",
+    "/shoes2.jpg",
+    "/shoes11.jpg",
+    "/shoes12.jpg",
+    "/shoes13.jpg",
+    "/shoes14.jpg",
+    "/shoes15.jpg",
+    "/shoes16.jpg",
+    "/shoes17.jpg", 
+    "/shoes18.jpg",
+    "/shoes19.jpg",
+    "/shoes20.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

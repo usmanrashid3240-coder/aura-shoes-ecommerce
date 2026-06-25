@@ -9,18 +9,18 @@ const Sneakers = () => {
 
   // Slider Images
   const images = [
-    "/MY-Project/S-1.jpg",
-    "/MY-Project/S-2.jpg",
-    "/MY-Project/S3.jpg",
-    "/MY-Project/S4.jpg",
-    "/MY-Project/S5.jpg",
-    "/MY-Project/S6.jpg",
-    "/MY-Project/S7.jpg",
-    "/MY-Project/S8.jpg",
-    "/MY-Project/S9.jpg",
-    "/MY-Project/S10.jpg",
-    "/MY-Project/S11.jpg",
-    "/MY-Project/S12.jpg",
+    "/S-1.jpg",
+    "/S-2.jpg",
+    "/S3.jpg",
+    "/S4.jpg",
+    "/S5.jpg",
+    "/S6.jpg",
+    "/S7.jpg",
+    "/S8.jpg",
+    "/S9.jpg",
+    "/S10.jpg",
+    "/S11.jpg",
+    "/S12.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

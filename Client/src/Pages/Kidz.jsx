@@ -10,16 +10,16 @@ const Kidz = () => {
 
   // 🧒 Slider Images
   const images = [
-    "/MY-Project/K1.jpg",
-    "/MY-Project/K2.jpg",
-    "/MY-Project/K3.jpg",
-    "/MY-Project/K4.jpg",
-    "/MY-Project/K5.jpg",
-    "/MY-Project/K6.jpg",
-    "/MY-Project/K7.jpg",
-    "/MY-Project/K8.jpg",
-    "/MY-Project/K9.jpg",
-    "/MY-Project/K10.jpg",
+    "/K1.jpg",
+    "/K2.jpg",
+    "/K3.jpg",
+    "/K4.jpg",
+    "/K5.jpg",
+    "/K6.jpg",
+    "/K7.jpg",
+    "/K8.jpg",
+    "/K9.jpg",
+    "/K10.jpg",
   ];
 
   // 🔁 Slider Logic
